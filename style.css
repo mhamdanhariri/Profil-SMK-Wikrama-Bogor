@@ -1,0 +1,80 @@
+body{
+    background-color: #c0d6f5;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3f3f3f;
+    margin: 0;
+    background: linear-gradient(#c0d6f5, #60a1fd);
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 16px 32px;
+    overflow: hidden;
+  }
+    
+  li {
+    float: right;
+
+  }
+  
+  .judul {
+    float: left;
+  }
+    
+  li a {
+    display: block;
+    color: #3a3a3a;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .judul-text{
+    font-style: var;
+  }
+    
+    
+
+  
+  @media screen and (max-width: 600px) {
+    ul li {float: none;}
+    .judul {float: none;}
+  }
+
+  li a:hover {color:green; }
+  li a:active {color:greenyellow; }
+
+
+  .gambar-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 84%;
+    
+  }
+  
+  hr {
+    border: 1px black solid;
+  }
+
+  mark{
+      text-align: center;
+  }
+
+  .vmm1 {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 80px;
+    margin: 0 auto;
+    max-width: 100%;
+    justify-items: center;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 41px;
+  }
+
+  
